@@ -13,6 +13,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 .header {
   width: 100%;
   background-color: #ffe500;
@@ -33,7 +34,7 @@ nav ul {
 
 .nav a {
   color: #fff;
-  padding: .2em .5em .3em;
+  padding: .1em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
@@ -73,7 +74,7 @@ img {
 h2 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
-  font-size: 1.875rem:
+  font-size: 1.875rem;
   padding: 0;
   padding-top: .75em;
   padding-bottom: .75rem;
