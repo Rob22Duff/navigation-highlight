@@ -4,12 +4,6 @@ html {
   line-height: 1.5;
 }
 
-* {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -18,7 +12,7 @@ html {
   width: 100%;
   background-color: #ffe500;
   text-align: center;
-  padding-bottom: .75em;
+  padding-bottom: .3em;
 }
 
 nav ul {
@@ -26,6 +20,7 @@ nav ul {
   font-family: Georgia, serif;
   font-size: 1.125rem;
   margin: 0;
+  padding: 0;
 }
 
 .nav li {
@@ -34,10 +29,11 @@ nav ul {
 
 .nav a {
   color: #fff;
-  padding: .1em .5em .3em;
+  padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .nav a:hover {
@@ -45,7 +41,7 @@ nav ul {
 }
 
 .nav .current {
-  background-color: #cc1465;
+  background-color: #b20953;
 }
 
 body {
@@ -53,7 +49,9 @@ body {
 }
 
 main {
-  margin: .3em;
+  margin: .3em 0;
+  padding-left: .75em;
+  padding-right: .75em;
 }
 
 h1 {
@@ -68,24 +66,16 @@ img {
   display: block;
   width: 100%;
   margin-top: .3em;
-  padding: .2em .5em .3em;
 }
 
 h2 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
   font-size: 1.875rem;
-  padding: 0;
-  padding-top: .75em;
-  padding-bottom: .75rem;
-  margin-bottom: .75rem;
 }
 
 p {
-  margin: .3em;
-  padding-bottom: .75rem;
   font-family: Georgia, serif;
-  margin-top: 0;
   color: #2f2d13;
 }
 
